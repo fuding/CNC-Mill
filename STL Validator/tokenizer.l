@@ -1,0 +1,58 @@
+/*      @File Name: mini_calc.l
+        @Brief:
+	@Author: Fadi Hanna Al-Kass, http://fadialkass.blogspot.com
+*/
+
+%{
+	#include <stdio.h>
+	#include <stdlib.h>     /* strtol */
+	#include "y.tab.h"
+%}
+
+
+%%
+
+[ \t\n]+		;//return *yytext;
+
+solid			return SOLID;
+
+endsolid		return ENDSOLID;
+
+[-+]?[0-9]*[.][0-9]+	{
+				yylval.fraction = atof(yytext);
+				return DOUBLE;
+			}
+
+[-+]?[0-9]+		{
+				yylval.real = atoi(yytext);
+				return INTEGER;
+			}
+
+outer			return OUTER;
+
+loop			return LOOP;
+
+endloop			return ENDLOOP;
+
+vertex			return VERTEX;
+
+facet			return FACET;
+
+normal			return NORMAL;
+
+endfacet		return ENDFACET;
+
+[A-Za-z_]+		{
+				int i;
+				for (i = 0; yytext[i] != '\000'; i++);
+				yylval.str = (char *)malloc(sizeof(char) * i);
+				strcpy(yylval.str, yytext);
+				return STRING;
+			}
+
+%%
+
+int yywrap()
+{
+	return 1;
+}
