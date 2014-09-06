@@ -1,4 +1,5 @@
-<img src="interface/stl.png" alt="STL File Icon" height="52" width="52">
+<img src="interface/stl.png" alt="STL File Icon" height="42" width="42">
+
 
 
 Necessary Packages
@@ -7,7 +8,8 @@ Necessary Packages
 * [flex Lexical Analyzer](https://www.gnu.org/software/flex/)
 * [yacc Parser](http://en.wikipedia.org/wiki/Yacc)
 
-> Note: To install all missing packages, run
+
+> Note: To install all missing packages, run the included `install_missing` [Bash](http://www.gnu.org/software/bash) [script](http://en.wikipedia.org/wiki/Script_%28Unix%29).
 
 
 Author(s) & Contributors
