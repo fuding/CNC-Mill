@@ -1,3 +1,6 @@
+<img src="/interface/imgs/stl.png" alt="STL File Icon" height="42" width="42">
+
+
 Description
 ===========
 
