@@ -2,7 +2,7 @@ CC=gcc
 LEXER=lex
 PARSER=yacc -d
 OPTIMIZATION_LEVEL=-O3
-OUT=-o validator
+OUT=-o validate
 
 
 all: build
