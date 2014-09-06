@@ -1,4 +1,4 @@
-<img src="interface/stl.png" alt="STL File Icon" height="42" width="42">
+<img src="interface/stl.png" alt="STL File Icon" height="52" width="52">
 
 
 Necessary Packages
