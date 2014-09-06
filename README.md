@@ -1,4 +1,4 @@
-<img src="interface/imgs/stl.png" alt="STL File" height="42" width="50">
+<img src="interface/imgs/stl.png" alt="STL File" height="50" width="50">
 
 
 Description
