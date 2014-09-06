@@ -1,6 +1,5 @@
 
 
-
 cd src
 make
 mv validat* ..

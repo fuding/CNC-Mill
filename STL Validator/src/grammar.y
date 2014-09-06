@@ -1,7 +1,8 @@
 /*	
-	@File Name: mini_calc.y
-	@Brief:
-	@Author: Fadi Hanna Al-Kass, http://fadialkass.blogspot.com
+	@File:		grammar.y
+	@Brief:		STL file syntax validation tool
+	@Author: 	Fadi Hanna Al-Kass
+	@Email:		eliya.3@wright.edu
 */
 
 %{
@@ -10,6 +11,13 @@
 	#include <string.h>
 	#include <stdbool.h>
 
+	#ifndef	EXIT_SUCCESS
+	#define	EXIT_SUCCESS	( 0 == 0 )
+	#endif
+
+	#ifndef	EXIT_FAILURE
+	#define	EXIT_FAILUR	( 0 == 1 )
+	#endif
 
 	extern FILE * yyin;
 
@@ -19,7 +27,7 @@
 
 	void yyerror(const char * str)
 	{
-		printf("Error in line %d: %s\n", yyline, str);
+		printf("Error at line %d: %s\n", yyline, str);
 	}
 
 %}

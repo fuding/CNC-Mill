@@ -1,11 +1,10 @@
-/*      @File Name: mini_calc.l
-        @Brief:
-	@Author: Fadi Hanna Al-Kass, http://fadialkass.blogspot.com
+/*      @File Name:	tokenizer.y
+	@Brief:		STL file syntax tokenizer
+	@Author: 	Fadi Hanna Al-Kass
+	@Email:		eliya.3@wirght.edu
 */
 
 %{
-	#include <stdio.h>
-	#include <stdlib.h>     /* strtol */
 	#include "y.tab.h"
 %}
 
