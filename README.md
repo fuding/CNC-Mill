@@ -7,6 +7,8 @@ Necessary Packages
 * [flex Lexical Analyzer](https://www.gnu.org/software/flex/)
 * [yacc Parser](http://en.wikipedia.org/wiki/Yacc)
 
+> Note: To install all missing packages, run
+
 
 Author(s) & Contributors
 ========================
