@@ -19,6 +19,9 @@ Necessary Packages
 
 	make install-missing
 
+> Note: To build all tools, type
+
+	make install-all
 
 Author(s) & Contributors
 ========================
