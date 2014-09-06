@@ -1,0 +1,8 @@
+
+
+
+cd src
+make
+mv validat* ..
+cd ..
+
