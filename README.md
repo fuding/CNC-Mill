@@ -1,5 +1,5 @@
-<img src="interface/imgs/stl.png" alt="STL File Icon" height="42" width="42">
-<img src="interface/imgs/stl2.png" alt="STL File Icon" height="42" width="42">
+<img src="interface/imgs/st2.png" alt="STL File Icon 1" height="42" width="42">
+<img src="interface/imgs/stl.png" alt="STL File Icon 2" height="42" width="42">
 
 Description
 ===========
