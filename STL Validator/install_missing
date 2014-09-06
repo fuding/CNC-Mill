@@ -1,20 +1,4 @@
 
 
-ID=`id -u`
 
-if [ $ID -ne 0 ]; then
-	echo "Run 'sudo ./install_missing'"
-	exit 1
-fi
-
-
-alias install='sudo apt-get install -y'
-
-echo "Installing m4..."
-install  m4
-
-echo "Installing flex lexical analyser"
-install flex
-
-echo "Installing bison parser"
-install bison
+../install_missing

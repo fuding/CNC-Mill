@@ -1,6 +1,11 @@
 <img src="interface/stl.png" alt="STL File Icon" height="42" width="42">
 
 
+Description
+===========
+All Team Project I STL-to-Gcode Convertsion-Related Material is Stored in this Repository.
+
+
 
 Necessary Packages
 ==================
@@ -9,9 +14,12 @@ Necessary Packages
 * [yacc Parser](http://en.wikipedia.org/wiki/Yacc)
 
 
+
 > Note: To install all missing packages, run the included `install_missing` [Bash](http://www.gnu.org/software/bash) [script](http://en.wikipedia.org/wiki/Script_%28Unix%29), i.e.
 
 	`sudo ./install_missing`
+
+
 
 Author(s) & Contributors
 ========================
