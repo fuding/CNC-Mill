@@ -18,7 +18,7 @@ solid			return SOLID;
 endsolid		return ENDSOLID;
 
 
-[-+]?[0-9]*[.][0-9]+(e\+[0-9]+)?	{
+[-+]?[0-9]*[.][0-9]+[Ee]\+[0-9]+	{
 						// convert here
 						return FLOAT;
 					}
