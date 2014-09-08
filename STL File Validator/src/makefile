@@ -1,7 +1,6 @@
-CC=gcc
+CC=gcc -O3
 LEXER=lex
 PARSER=yacc -d
-OPTIMIZATION_LEVEL=-O3
 OUT=-o validate
 
 all:		build
@@ -12,7 +11,7 @@ build:	*.l *.y
 	@echo "Compiling *.l *.y"
 	$(LEXER) *.l
 	$(PARSER) *.y
-	$(CC) *.c *.h ${OUT} ${OPTIMIZATION_LEVEL}
+	$(CC) ${OUT} *.c *.h
 	make clean
 
 clean: y.tab.* lex*.c

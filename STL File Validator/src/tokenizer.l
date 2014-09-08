@@ -17,6 +17,12 @@ solid			return SOLID;
 
 endsolid		return ENDSOLID;
 
+
+[-+]?[0-9]*[.][0-9]+(e\+[0-9]+)?	{
+						// convert here
+						return FLOAT;
+					}
+
 [-+]?[0-9]*[.][0-9]+	{
 				yylval.fraction = atof(yytext);
 				return DOUBLE;

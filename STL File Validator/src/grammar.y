@@ -37,6 +37,7 @@
 {
 	char * str;
 	int real;
+	float scientific;
 	double fraction;
 }
 
@@ -49,6 +50,7 @@
 %token	VERTEX
 %token	<real>		INTEGER
 %token	<fraction>	DOUBLE
+%token	<scientific>	FLOAT;
 %token	<str>		STRING
 
 %%
