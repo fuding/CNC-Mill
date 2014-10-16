@@ -3,7 +3,7 @@
 
 Description
 ===========
-All Team Project I "STL to G-code" ronvertsion-related material is/will be held in this repository.
+All Team Project I '[STL](http://en.wikipedia.org/wiki/STL_%28file_format%29) to [G-code](http://en.wikipedia.org/wiki/G-code)' cronvertsion-related material is/will be held in this repository.
 
 
 
