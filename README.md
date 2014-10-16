@@ -1,4 +1,4 @@
-<img src=".interface/imgs/mill.png" alt="" height="42" width="42">
+<img src=".interface/imgs/mill.png" alt="" height="100" width="100">
 
 
 Description
