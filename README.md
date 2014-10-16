@@ -3,7 +3,7 @@
 
 Description
 ===========
-All Team Project I STL-to-Gcode Convertsion-Related Material is/will be Held in this Repository.
+All Team Project I "STL to G-code" ronvertsion-related material is/will be held in this repository.
 
 
 
