@@ -1,4 +1,4 @@
-<img src="../interface/imgs/syntax.png" alt="Syntax Icon" height="42" width="42">
+<img src="../.interface/imgs/syntax.png" alt="Syntax Icon" height="42" width="42">
 
 
 Description
