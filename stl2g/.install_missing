@@ -10,7 +10,7 @@ fi
 
 curl -L http://cpanmin.us | perl - --sudo App::cpanminus
 
-alias install='apt-get install -y'
+#alias install='apt-get install -y'
 
-install python
-install perl
+#install python
+#install perl

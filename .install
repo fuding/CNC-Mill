@@ -7,14 +7,11 @@ if [ `id -u` -ne 0 ]; then
 fi
 
 cd validator
-ls
-#make
-# mv ....
+make
+mv validate /usr/bin
 cd ..
 
 
 cd stl2g
-ls
-#make
-# mv ....
+make
 cd ..

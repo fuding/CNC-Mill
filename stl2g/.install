@@ -11,4 +11,5 @@ if [ $? -eq 0 ]; then
 	cd Slic3r
 	perl Build.PL
 	cd ..
+	mv Slic3r /opt
 fi
