@@ -12,4 +12,5 @@ if [ $? -eq 0 ]; then
 	perl Build.PL
 	cd ..
 	mv Slic3r /opt
+	mv stl2g /usr/bin
 fi
