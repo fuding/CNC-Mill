@@ -11,7 +11,7 @@ isfile=os.path.isfile
 
 if len(argv) == 2:
 	if isfile(argv[1]) == True:
-		rv=subprocess.call(["./slic3r.pl", argv[1]])
+		rv=subprocess.call(["/opt/Slic3r/slic3r.pl", argv[1]])
 		exit(rv)
 	else:
 		print "'%s' is not a valid input stl file path" %(argv[1])
@@ -20,7 +20,7 @@ if len(argv) == 2:
 elif len(argv) == 3:
 	if isfile(argv[1]) == True:
 		if isfile(argv[2]) == False:
-			rv=subprocess.call(["./slic3r.pl", argv[1], "-o", argv[2]])
+			rv=subprocess.call(["/opt/Slic3r/slic3r.pl", argv[1], "-o", argv[2]])
 			exit(rv)
 		else:
 			print "'%s' is already used" %(argv[2])

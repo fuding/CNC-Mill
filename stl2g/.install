@@ -11,6 +11,6 @@ if [ $? -eq 0 ]; then
 	cd Slic3r
 	perl Build.PL
 	cd ..
-	cp Slic3r /opt
+	cp -r Slic3r /opt
 	cp stl2g /usr/bin
 fi
