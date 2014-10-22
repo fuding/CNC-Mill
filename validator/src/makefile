@@ -16,4 +16,3 @@ build:	*.l *.y
 
 clean: y.tab.* lex*.c
 	rm y.tab.* lex*.c
-

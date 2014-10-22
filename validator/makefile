@@ -1,11 +1,7 @@
 
 
-all:		build
-
-install:	build
-
-build:
+install: ./.install
 	sudo ./.install
 
-install-missing:
+install-missing: ./.install_missing
 	sudo ./.install_missing

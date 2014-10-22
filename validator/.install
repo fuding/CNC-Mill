@@ -1,5 +1,5 @@
 cd src
 make
-mv validat* ..
+cp validat* /usr/bin
 cd ..
 

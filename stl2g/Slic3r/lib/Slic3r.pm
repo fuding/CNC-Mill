@@ -38,7 +38,6 @@ use Moo 1.003001;
 use Slic3r::XS;   # import all symbols (constants etc.) before they get parsed
 use Slic3r::Config;
 use Slic3r::ExPolygon;
-use Slic3r::Extruder;
 use Slic3r::ExtrusionLoop;
 use Slic3r::ExtrusionPath;
 use Slic3r::ExtrusionPath::Collection;
@@ -52,6 +51,7 @@ use Slic3r::GCode::ArcFitting;
 use Slic3r::GCode::CoolingBuffer;
 use Slic3r::GCode::Layer;
 use Slic3r::GCode::MotionPlanner;
+use Slic3r::GCode::OozePrevention;
 use Slic3r::GCode::PlaceholderParser;
 use Slic3r::GCode::Reader;
 use Slic3r::GCode::SpiralVase;
