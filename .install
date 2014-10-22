@@ -14,7 +14,7 @@ cd ..
 
 cd stl2g
 chmod +x .install*
-chmod -x stl2g
+chmod +x stl2g
 make install-missing
 make install
 cd ..
