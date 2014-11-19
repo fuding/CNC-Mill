@@ -10,13 +10,14 @@ How to Download
 Clone the project repository from GitHub
 
 	$ git clone https://github.com/alkass/CNC-Mill
-<img src=".interface/imgs/cd.png" alt="" height="40" width="400">
+
 
 How to Build
 ============
 1. Navigate to the CNC-Mill folder
 
 	$ cd CNC*
+<img src=".interface/imgs/cd.png" alt="" height="43" width="498">
 
 3. Build the project
 
