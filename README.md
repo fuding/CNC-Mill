@@ -5,23 +5,29 @@ Description
 ===========
 All Team Project I '[STL](http://en.wikipedia.org/wiki/STL_%28file_format%29) to [G-code](http://en.wikipedia.org/wiki/G-code)' cronvertsion-related material is/will be held in this repository.
 
+How to Download
+===============
+Clone the project repository from GitHub
 
+	$ git clone https://github.com/alkass/CNC-Mill
+<img src=".interface/imgs/cd.png" alt="" height="82" width="400">
 
-Necessary Packages
-==================
-* [m4](http://www.gnu.org/software/m4/)
-* [flex Lexical Analyzer](https://www.gnu.org/software/flex/)
-* [yacc Parser](http://en.wikipedia.org/wiki/Yacc)
+How to Build
+============
+1. Navigate to the CNC-Mill folder
 
+	$ cd CNC*
 
+3. Build the project
 
-> Note: To install all missing packages, type
+	$ sudo make
 
-	make install-missing
+> Note: The build process will install all missing packages along the line.
+> Note: Building the source code may take a while (15-30 minutes)
 
-> Note: To build all tools, type
+Usage
+=====
 
-	make install-all
 
 Author(s) & Contributors
 ========================
