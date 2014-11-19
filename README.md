@@ -11,6 +11,7 @@ Clone the project repository from GitHub
 
 	$ git clone https://github.com/alkass/CNC-Mill
 
+<img src=".interface/imgs/clone.png" alt="" align="middle">
 
 How to Build
 ============
@@ -24,6 +25,9 @@ How to Build
 
 	$ sudo make
 
+<img src=".interface/imgs/make.png" alt="" align="middle">
+
+	
 > Note: The build process will install all missing packages along the line.
 > Note: Building the source code may take a while (15-30 minutes)
 
