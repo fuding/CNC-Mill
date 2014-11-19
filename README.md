@@ -17,7 +17,8 @@ How to Build
 1. Navigate to the CNC-Mill folder
 
 	$ cd CNC*
-<img src=".interface/imgs/cd.png" alt="" height="43" width="498">
+
+<img src=".interface/imgs/cd.png" alt="" height="43" width="398">
 
 3. Build the project
 
