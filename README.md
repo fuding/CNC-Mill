@@ -22,8 +22,7 @@ How to Build
 <img src=".interface/imgs/cd.png" alt="" align="middle">
 
 3. Build the project
-
-	$ sudo make
+$ sudo make
 
 <img src=".interface/imgs/make.png" alt="" align="middle">
 
