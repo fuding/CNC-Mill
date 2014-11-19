@@ -34,10 +34,14 @@ Build the project
 Usage
 =====
 
+To convert an .stl file into .gcode, type
 
+	$ stl2g <file name>	# <file name> is the *.stl file path.
 
 <img src=".interface/imgs/conversion.png" alt="" align="middle">
 
+if you, however, want to specify your output file name, type
+	$ stl2d <input file name> <output file name>
 
 <img src=".interface/imgs/conversion1.png" alt="" align="middle">
 
