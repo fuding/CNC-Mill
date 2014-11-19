@@ -18,7 +18,7 @@ How to Build
 
 	$ cd CNC*
 
-<img src=".interface/imgs/cd.png" alt="" height="43" width="398" align="middle">
+<img src=".interface/imgs/cd.png" alt="" align="middle" height="43" width="398">
 
 3. Build the project
 
