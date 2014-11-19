@@ -10,7 +10,7 @@ How to Download
 Clone the project repository from GitHub
 
 	$ git clone https://github.com/alkass/CNC-Mill
-<img src=".interface/imgs/cd.png" alt="" height="82" width="400">
+<img src=".interface/imgs/cd.png" alt="" height="30" width="300">
 
 How to Build
 ============
