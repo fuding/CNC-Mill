@@ -15,13 +15,13 @@ Clone the project repository from GitHub
 
 How to Build
 ============
-1. Navigate to the CNC-Mill folder
+Navigate to the CNC-Mill folder
 
 	$ cd CNC*
 
 <img src=".interface/imgs/cd.png" alt="" align="middle">
 
-3. Build the project
+Build the project
 
 	$ sudo make
 
